@@ -1,3 +1,10 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:flavio-foa-dev/sql.git
+git push -u origin main
+
 A selecionar campos específicos da tabela
 Como definir um alias para os nomes dos campos
 A filtrar registros, utilizando o WHERE para campos do tipo de texto

@@ -86,3 +86,8 @@ Datas
 Números
 Strings
 conversão de tipos
+
+o conceito de "tabelas virtuais" e visões, em inglês, views;
+o processo de criação de views;
+Tratamos relatórios utilizando views;
+pontos importantes sobre performance quando o assunto são Views;

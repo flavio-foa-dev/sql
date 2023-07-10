@@ -77,3 +77,12 @@ dos os relacionamentos com os JOINs corretos.
 utilizar o operador IN;
 as sub-consultas;
 sub-consultas podem ser utilizadas como um campo ou como uma "tabela virtual";
+
+funcoes em banco de dados sql mudam de um banco para outro
+
+o que mais diferencia um sistema de banco de dados de outros: funções;
+funções que manipulam diferentes tipos de dados;
+Datas
+Números
+Strings
+conversão de tipos

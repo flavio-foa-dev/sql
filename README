@@ -91,3 +91,8 @@ o conceito de "tabelas virtuais" e visões, em inglês, views;
 o processo de criação de views;
 Tratamos relatórios utilizando views;
 pontos importantes sobre performance quando o assunto são Views;
+
+Organizar (e separar) de forma lógica nossas tabelas
+
+## Qual o propósito dos schemas no PostgreSQL
+Uma analogia ao mundo da programação seriam os módulos, pacotes ou namespaces. Uma analogia ao mundo dos Sistemas Operacionais seriam as pastas. Schemas servem para organizar e separar nossas tabelas.

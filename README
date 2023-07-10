@@ -96,3 +96,25 @@ Organizar (e separar) de forma lógica nossas tabelas
 
 ## Qual o propósito dos schemas no PostgreSQL
 Uma analogia ao mundo da programação seriam os módulos, pacotes ou namespaces. Uma analogia ao mundo dos Sistemas Operacionais seriam as pastas. Schemas servem para organizar e separar nossas tabelas.
+
+conceito de modelagem de dados;
+schemas no PostgreSQL que nos ajudam a organizar nossas tabelas;
+análise de requisitos e sobre modelos utilizados neste processo
+```
+ CREATE DATABASE nome
+    [ [ WITH ] [ OWNER [=] user_name ]
+           [ TEMPLATE [=] template ]
+           [ ENCODING [=] codificação ] ]
+           [ LC_COLLATE [=] lc_collate ]
+           [ LC_CTYPE [=] lc_ctype ]
+           [ TABLESPACE [=] tablespace_name]
+           [ ALLOW_CONNECTIONS [=] allowconn]
+           [ CONNECTION LIMIT [=] connlimit]
+           [ IS TEMPLATE [=] istemplate]
+
+```
+
+Desmembramos a criação de um banco de dados
+criar uma tabela;
+ALTER TABLE para alterar a estrutura de uma tabela;
+diferença entre comandos DDL e DML.

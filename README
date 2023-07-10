@@ -69,3 +69,6 @@ Como funcionam os filtros por funções de agrupamento, utilizando HAVING
 A diferença entre WHERE e HAVING
 Como utilizar o HAVING
 
+No processo de geração de relatórios completos, por precisarmos “passar” por diversas tabelas, às vezes acabamos nos perguntando: por onde começo?
+
+O ideal é sempre começar pela tabela que possui a informação central do relatório, e a partir dela ir fazendo todos os relacionamentos com os JOINs corretos.

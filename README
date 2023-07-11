@@ -133,3 +133,7 @@ Este comando exporta o conteúdo da tabela pessoa para o arquivo.
 - SEQUENCEs do PostgreSQL;
 - ENUM postgress;
 - bancos de dados na vida real.
+- propósito de programar diretamente no banco de dados;
+- conceito de funções no PostgreSQL;
+- Parâmetros
+- Retornos de funções

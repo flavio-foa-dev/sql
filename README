@@ -127,3 +127,9 @@ Desta forma nós importaríamos os dados do arquivo para a tabela
 
 # COPY pessoa TO '/pasta/arquivo.csv';
 Este comando exporta o conteúdo da tabela pessoa para o arquivo.
+
+- comando INSERT SELECT que realiza inserções a partir de uma consulta;
+- importação e exportação de dados em arquivos CSV.
+- SEQUENCEs do PostgreSQL;
+- ENUM postgress;
+- bancos de dados na vida real.

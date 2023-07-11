@@ -121,3 +121,9 @@ diferença entre comandos DDL e DML.
 
 # aspas simples refere-se strings valores
 # aspas duplas refere-se aliases campos colunas
+
+# COPY pessoa FROM '/pasta/arquivo.csv';
+Desta forma nós importaríamos os dados do arquivo para a tabela
+
+# COPY pessoa TO '/pasta/arquivo.csv';
+Este comando exporta o conteúdo da tabela pessoa para o arquivo.

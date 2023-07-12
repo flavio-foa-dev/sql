@@ -169,3 +169,12 @@ Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para in
 - EXIT para não cairmos em um "loop infinito";
 - estrutura WHILE para facilitar a leitura do LOOP sem precisar do EXIT;
 - FOR IN.
+- variável automaticamente criada em funções com PLpgSQL chamada FOUND;
+
+- criar um Trigger Procedure
+- Definimos um Trigger que executa uma Trigger Procedure quando um evento ocorre
+- Entendemos a fundo detalhes de triggers como FOR EACH ROW|STATEMENT, etc
+
+- há 2 sintaxes para iniciar uma transação: BEGIN e START TRANSACTION
+- funções por si só já fazem parte de uma transação
+- erros cancelam as alterações de uma função

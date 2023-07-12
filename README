@@ -145,3 +145,19 @@ Este comando exporta o conteúdo da tabela pessoa para o arquivo.
 - variáveis de saída
 - como retornar mais de um dado por vez em nossas funções através do SETOF
 - possíveis usos para o tipo RECORD.
+
+# There are trhee forms de definir o valor padrão de uma variável ao declará-la:
+```
+DEFAULT
+:=
+=
+```
+Agora um detalhe importante de se citar é que no corpo da função, ou seja, entre os blocos BEGIN e END nós não podemos utilizar o DEFAULT para atribuir (ou modificar) o valor de uma variável. Apenas as 2 últimas opções são possíveis.
+
+Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para informar o valor padrão de uma variável.
+
+- as limitações do SQL quando se trata de programação;
+- linguagem PLpgSQL, que é uma linguagem de Programação Procedural criada pelo PostgreSQL como uma extensão ao SQL;
+- estrutura básica de criação de uma função usando PLpgSQL;
+- definir variáveis DECLARE;
+- blocos e escopos usando PLpgSQL  BEGIN END.

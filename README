@@ -161,3 +161,6 @@ Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para in
 - estrutura básica de criação de uma função usando PLpgSQL;
 - definir variáveis DECLARE;
 - blocos e escopos usando PLpgSQL  BEGIN END.
+- decisões em nossos códigos usando IF;
+- fluxo de aplicação com ELSEIF e ELSE;
+- uasar CASE.

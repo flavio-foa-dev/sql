@@ -17,7 +17,7 @@ CREATE OR REPLACE FUNCTION cria_a( nome VARCHAR) RETURNS VARCHAR AS'
     SELECT nome;
 'LANGUAGE SQL;
 
-SELECT cria_a('Vinicius Dias')
+SELECT cria_a('jhon Dias')
 
 
 CREATE OR REPLACE FUNCTION cria_a( nome VARCHAR) RETURNS void AS'
@@ -29,7 +29,7 @@ CREATE OR REPLACE FUNCTION cria_a( nome VARCHAR) RETURNS void AS'
     INSERT INTO a(nome) VALUES(cria_a.nome)
 'LANGUAGE SQL;
 
-SELECT cria_a('Vinicius Dias')
+SELECT cria_a('jhon Dias')
 
 
 DROP FUNCTION cria_a;
@@ -37,4 +37,4 @@ CREATE OR REPLACE FUNCTION cria_a( nome VARCHAR) RETURNS void AS $$
     INSERT INTO a(nome) VALUES('Patricia')
 $$ LANGUAGE SQL;
 
-SELECT cria_a('Vinicius Dias')
+SELECT cria_a('jhon Dias')

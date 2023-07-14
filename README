@@ -182,3 +182,7 @@ Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para in
 - erros e mensagens com o RAISE
 - o ASSERT que verifica condições e levanta exceções
 
+- cursores, para poupar uso de memória
+- abrir cursores, sendo eles bound ou unbound
+- manipular cursores com FETCH e MOVE
+- cursores na prática em um LOOP

@@ -193,3 +193,6 @@ Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para in
 - apesar de serem uma ferramenta muito poderosa, índices nem sempre são a solução
 -  arquivo pg_hba.conf que permite a configuração de acesso ao servidor baseado em hosts
 -  Vimos que o PostgreSQL trabalha com um conceito de ROLES, que podem ser como usuários ou grupos
+
+der mer
+Diferenciar o Modelo Entidade e Relacionamento (MER) do Diagrama Entidade e Relacionamento (DER).

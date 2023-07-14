@@ -178,3 +178,7 @@ Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para in
 - há 2 sintaxes para iniciar uma transação: BEGIN e START TRANSACTION
 - funções por si só já fazem parte de uma transação
 - erros cancelam as alterações de uma função
+- erros (ou exceções) do PostgreSQL
+- erros e mensagens com o RAISE
+- o ASSERT que verifica condições e levanta exceções
+

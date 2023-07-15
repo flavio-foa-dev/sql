@@ -196,3 +196,20 @@ Sendo assim, o DEFAULT pode ser utilizado apenas dentro do bloco DECLARE para in
 
 der mer
 Diferenciar o Modelo Entidade e Relacionamento (MER) do Diagrama Entidade e Relacionamento (DER).
+
+Instalar o SQL Power Architect;
+
+## Nos tipos de dados numéricos temos:
+- Int armazena valores numéricos inteiros.
+- Float armazena valores numéricos aproximados com precisão de ponto flutuante.
+- Decimal armazena valores numéricos com casas decimais, utilizando precisão.
+
+## Nos tipos de dados string temos:
+- Varchar armazena valores de string de tamanho variável de acordo com o seu limite.
+- Char armazena valores de string de tamanho fixo.
+- Text armazena valores de string de tamanho variável.
+
+## Nos tipos de dados Data temos:
+- Date armazena apenas valores de data.
+- Time armazena apenas valores de hora.
+- Timestamp armazena valores de data e hora.

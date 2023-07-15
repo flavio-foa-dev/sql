@@ -213,3 +213,6 @@ Instalar o SQL Power Architect;
 - Date armazena apenas valores de data.
 - Time armazena apenas valores de hora.
 - Timestamp armazena valores de data e hora.
+
+SET FOREIGN_KEY_CHECKS = 0;
+O comando SET FOREIGN_KEY_CHECKS = 0; desativa as restrições de chave estrangeira, permitindo inserir informações em quaisquer tabelas.
